@@ -127,7 +127,7 @@ public class FiducialController : MonoBehaviour
             ShowGameObject();
 
             //update transform component
-            UpdateTransform();
+            //UpdateTransform();
         }
         else
         {
@@ -140,6 +140,19 @@ public class FiducialController : MonoBehaviour
             this.m_IsVisible = false;
         }
     }
+
+	void LateUpdate(){
+
+		if (this.m_TuioManager.IsConnected && this.m_TuioManager.IsMarkerAlive (this.MarkerID)) {
+
+			UpdateTransform();
+
+
+
+		}
+
+
+	}
 
 
     void OnApplicationQuit()
