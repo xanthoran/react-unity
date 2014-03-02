@@ -1,6 +1,6 @@
-/Temp
-/obj
-/library
+ReactivisionUnityProject/Temp
+ReactivisionUnityProject/obj
+ReactivisionUnityProject/library
 *.csproj
 *.unityproj
 *.sln
