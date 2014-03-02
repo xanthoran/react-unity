@@ -1,0 +1,13 @@
+<!--
+set the camera ID to "0" if you want to omit the initial camera dialog,
+seeting the camera ID to "auto" shows the initial configuration options.
+currently you can only choose the width and height using this configuration file.
+-->
+
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<portvideo>
+<camera id="0">
+        <image width="max" height="max"/>
+</camera>
+</portvideo>
+

@@ -1,0 +1,36 @@
+UnityOSC v1.1 October 2012 ------------
+
+Open Sound Control classes and 
+API for the Unity 3d game engine
+
+---------------------------------------
+
+Author: Jorge Garcia [info@jorgegarciamartin.com]
+
+Acknowledgements: Stefan Kersten [stefan.kersten@upf.edu], for reviewing the code and the API. This library includes portions of code from the Bespoke OSC library by Paul Varcholik [pvarchol@bespokesoftware.org]
+
+Documentation
+
+	docs/doxygen/html/index.html		doxygen generated html reference
+	docs/UnityOSC_manual.pdf		main reference and examples of usage
+
+Source code
+
+	src/OSCHandler.cs
+	src/UnityOSC/OSCBundle.cs
+	src/UnityOSC/OSCClient.cs
+	src/UnityOSC/OSCMessage.cs
+	src/UnityOSC/OSCPacket.cs
+	src/UnityOSC/OSCServer.cs
+	src/Editor/OSCHelper.cs
+	
+TODO
+
+	10.12 Implement bundle packet information
+	07.11 Change string concatenations to C# string builders.
+	07.11 Review exception handling for uninitialized client/servers.
+	
+Known issues
+
+* Since bundle information is not implemented fully, receiving messages in Unity fails while using bundles (e.g. when sending OSC from OpenFrameworks with ofxOSC)
+	

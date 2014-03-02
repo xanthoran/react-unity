@@ -1,0 +1,30 @@
+The reacTIVision software and the the TUIO example clients 
+are free software licensed under the GPL license. 
+You can freely use this software for any private, academic 
+or commercial purpose, provided that you are willing 
+to publish the source code of your derived work upon request. 
+
+* the reacTIVision framework (c) by Martin Kaltenbrunner
+  is licensed under the GPL v2.0 license
+  see the file GPL.txt for the detailled license terms
+  http://reactivision.sourceforge.net/
+
+* the fidtrack library (c) by Ross Bencina & Martin Kaltenbrunner
+  is licensed under the LGPL license
+  see LICENSE.txt in the project folder for its terms
+  http://reactivision.sourceforge.net/
+
+* the dtouch library (c) by Enrico Costanza
+  is licensed under the GPL v2.0 license
+  see the file GPL.txt for the detailled license terms
+  http://sourceforge.net/projects/libdtouch/
+
+* the oscpack library (c) by Ross Bencina
+  is licensed under a BSD style license
+  see LICENSE in the project folder for its terms
+  http://www.audiomulch.com/~rossb/code/oscpack/
+
+* the DsVideoLib library (c) by Thomas Pintaric
+  is licensed under the GPL license
+  see LICENSE.txt in the project folder for its terms
+  http://sourceforge.net/projects/dsvideolib/

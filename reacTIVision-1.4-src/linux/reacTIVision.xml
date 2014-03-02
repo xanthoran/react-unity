@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<reactivision>
+
+<!--
+these are all the possible configuration tags and their default values
+you only need to specify parameters that you want to change from their default
+please note that the active tags need to be outside of this commented area.
+
+<tuio host="127.0.0.1" port="3333" />
+<midi config="midi_demo.xml" />
+<camera config="camera.xml" />
+<finger size="0" sensitivity="100" />
+<image display="dest" equalize="false" gradient="32" />
+<fiducial engine="amoeba" tree="default"/>
+<calibration file="default.grid" invert="xa" />
+
+finger tracking is turned OFF by default,
+you can enable it by defining the average finger
+blob size in pixels.
+-->
+
+    <finger size="0" sensitivity="75" />
+    <image display="dest" equalize="false" gradient="32" />
+    <calibration file="default.grid" invert=" " />
+
+</reactivision>
