@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CreateNewDocument</key>
+	<true/>
+	<key>ShouldOpenRecentFiles</key>
+	<true/>
+	<key>DefaultMidiChannel</key>
+	<integer>1</integer>
+	<key>DefaultOSCPort</key>
+	<integer>8000</integer>
+	<key>FlashActivityLights</key>
+	<true/>
+	<key>FirstLaunch</key>
+	<true/>
+	<key>GlobalMapPath</key>
+	<string></string>
+	<key>SpaceNavigatorConnectAtStartup</key>
+	<true/>
+	<key>UseWacomTablet</key>
+	<true/>
+	<key>MouseTrackingSpeed</key>
+	<integer>50</integer>
+	<key>DisableKeyRepeat</key>
+	<true/>
+	<key>DisplayGMHints</key>
+	<false/>
+	<key>StickyParametersWindow</key>
+	<false/>
+	<key>LogDomains</key>
+	<dict>
+		<key>MIDI Notes</key>
+		<false/>
+	</dict>
+	<key>WacomMouseLockMode</key>
+	<integer>1</integer>
+	<key>Use Effects</key>
+	<true/>
+	<key>EnableOSCBackMapping</key>
+	<false/>
+	<key>WiimotePairingAutostart</key>
+	<true/>
+</dict>
+</plist>

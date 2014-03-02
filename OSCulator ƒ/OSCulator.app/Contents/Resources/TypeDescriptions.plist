@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLogEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Console Log</string>
+	</dict>
+	<key>OSCChannelEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Change Channel</string>
+	</dict>
+	<key>OSCHIDEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>HID</string>
+	</dict>
+	<key>OSCKeyComboEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Key Combo</string>
+		<key>canBeCreatedByUser</key>
+		<true/>
+	</dict>
+	<key>OSCKeyEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Keycode</string>
+	</dict>
+	<key>OSCMidiCCEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>MIDI CC</string>
+	</dict>
+	<key>OSCMidiCCToggleEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>MIDI CC Toggle</string>
+	</dict>
+	<key>OSCMidiPCEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>MIDI Prg</string>
+	</dict>
+	<key>OSCMidiNoteEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>MIDI Note</string>
+	</dict>
+	<key>OSCMidiNoteOnOffEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>MIDI Note w/ Params</string>
+	</dict>
+	<key>OSCMidiPacketEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Send to MIDI</string>
+	</dict>
+	<key>OSCMidiRawEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>MIDI Raw</string>
+		<key>canBeCreatedByUser</key>
+		<true/>
+		<key>canBeCopiedByUser</key>
+		<true/>
+	</dict>
+	<key>OSCKymaPCEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Kyma Prg</string>
+	</dict>
+	<key>OSCKymaNoteEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Kyma Note</string>
+	</dict>
+	<key>OSCNoteOnOffEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Kyma Note w/ Params</string>
+	</dict>
+	<key>OSCMouseEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Mouse</string>
+	</dict>
+	<key>OSCNoteValuesEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Note Params</string>
+	</dict>
+	<key>OSCRouteEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>OSC Routing</string>
+		<key>canBeCreatedByUser</key>
+		<true/>
+		<key>canBeCopiedByUser</key>
+		<true/>
+	</dict>
+	<key>OSCPresetChangeEventSourceBase</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Presets</string>
+	</dict>
+	<key>OSCScriptEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>AppleScript</string>
+		<key>canBeCreatedByUser</key>
+		<true/>
+		<key>canBeCopiedByUser</key>
+		<true/>
+	</dict>
+	<key>OSCWiiEnableEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Wiimote Enable</string>
+	</dict>
+	<key>OSCWiiLEDEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>LEDs</string>
+	</dict>
+	<key>OSCWiiVibrateEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Vibrate</string>
+	</dict>
+	<key>OSCWiiMotionPlusReset</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>MotionPlus Reset</string>
+	</dict>
+	<key>_OSCKymaCCEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Kyma CC</string>
+	</dict>
+	<key>_OSCKymaExtEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Kyma Ext</string>
+	</dict>
+	<key>OSCVariable</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Variable</string>
+	</dict>
+	<key>_OSCLatchedEnable</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Enable</string>
+	</dict>
+	<key>_OSCLatchedCombine</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Enable Combine</string>
+	</dict>
+	<key>_OSCToggledEnable</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Enable Toggle</string>
+	</dict>
+	<key>OSCTestEventSource</key>
+	<dict>
+		<key>typeDesc</key>
+		<string>Test Event Source</string>
+	</dict>
+</dict>
+</plist>

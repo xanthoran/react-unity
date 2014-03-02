@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>10K549</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>OSCulator</string>
+	<key>CFBundleGetInfoString</key>
+	<string>OSCulator (Logic Plugin Version 9.1.2-197), Copyright (c) 2012 Wildora S.à.R.L.</string>
+	<key>CFBundleIconFile</key>
+	<string>MIDIDevicePlugIns.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.music.apps.midi.device.plugin.OSCulator</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>OSCulator</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>9.1.2</string>
+	<key>CFBundleSignature</key>
+	<string>EMAG</string>
+	<key>CFBundleVersion</key>
+	<string>197.17</string>
+	<key>DTCompiler</key>
+	<string>4.0</string>
+	<key>DTPlatformBuild</key>
+	<string>10M2518</string>
+	<key>DTPlatformVersion</key>
+	<string>PG</string>
+	<key>DTSDKBuild</key>
+	<string>9L31a</string>
+	<key>DTSDKName</key>
+	<string>macosx10.5</string>
+	<key>DTXcode</key>
+	<string>0400</string>
+	<key>DTXcodeBuild</key>
+	<string>10M2518</string>
+</dict>
+</plist>

@@ -1,0 +1,556 @@
+<JZML>
+<WINDOW class="JAZZINTERFACE" text="Qwerty" x="0" y="0" width="800" height="600" state="1" group="0" font="tahoma,11,0" >
+<WINDOW class="Container" text="Qwerty" x="0" y="44" width="800" height="196" state="5" group="0" font="tahoma,10,0" send="1" label="1" color="190">
+<WINDOW class="Pads" text="Row1" x="0" y="0" width="784" height="60" id="2" state="1" group="0" font="tahoma,10,0" send="1" label="0" column="12" row="1" color="140,254" capture="1">
+<PARAM name="x=" value="0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row1/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row1/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row1/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row1/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row1/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row1/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row1/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Pads" text="Row2" x="35" y="60" width="714" height="60" id="3" state="1" group="0" font="tahoma,10,0" send="1" label="0" column="11" row="1" color="140,254" capture="1">
+<PARAM name="x=" value="0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row2/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,1419" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row2/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row2/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row2/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row2/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row2/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row2/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Pads" text="Row3" x="52" y="120" width="652" height="60" id="4" state="1" group="0" font="tahoma,10,0" send="1" label="0" column="10" row="1" color="140,254" capture="1">
+<PARAM name="x=" value="0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row3/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row3/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row3/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row3/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row3/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row3/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Row3/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text9" x="0" y="30" width="65" height="20" id="13" state="245" group="0" font="tahoma,14,0" send="0" content="q" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text9/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text10" x="0" y="10" width="65" height="20" id="14" state="245" group="0" font="tahoma,14,0" send="0" content="Q" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text10/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text11" x="65" y="30" width="65" height="20" id="15" state="245" group="0" font="tahoma,14,0" send="0" content="w" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text11/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text12" x="65" y="10" width="65" height="20" id="16" state="245" group="0" font="tahoma,14,0" send="0" content="W" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text12/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text13" x="130" y="30" width="65" height="20" id="17" state="245" group="0" font="tahoma,14,0" send="0" content="e" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text13/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text14" x="130" y="10" width="65" height="20" id="18" state="245" group="0" font="tahoma,14,0" send="0" content="E" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text14/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text15" x="195" y="30" width="65" height="20" id="19" state="245" group="0" font="tahoma,14,0" send="0" content="r" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text15/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text16" x="195" y="10" width="65" height="20" id="20" state="245" group="0" font="tahoma,14,0" send="0" content="R" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text16/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text17" x="260" y="30" width="65" height="20" id="21" state="245" group="0" font="tahoma,14,0" send="0" content="t" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text17/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text18" x="260" y="10" width="65" height="20" id="22" state="245" group="0" font="tahoma,14,0" send="0" content="T" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text18/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text19" x="325" y="30" width="65" height="20" id="23" state="245" group="0" font="tahoma,14,0" send="0" content="y" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text19/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text20" x="325" y="10" width="65" height="20" id="24" state="245" group="0" font="tahoma,14,0" send="0" content="Y" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text20/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text21" x="390" y="30" width="65" height="20" id="25" state="245" group="0" font="tahoma,14,0" send="0" content="u" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text21/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text22" x="390" y="10" width="65" height="20" id="26" state="245" group="0" font="tahoma,14,0" send="0" content="U" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text22/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text23" x="455" y="30" width="65" height="20" id="27" state="245" group="0" font="tahoma,14,0" send="0" content="i" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text23/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text24" x="455" y="10" width="65" height="20" id="28" state="245" group="0" font="tahoma,14,0" send="0" content="I" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text24/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text25" x="522" y="30" width="65" height="20" id="29" state="245" group="0" font="tahoma,14,0" send="0" content="o" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text25/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text26" x="522" y="10" width="65" height="20" id="30" state="245" group="0" font="tahoma,14,0" send="0" content="O" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text26/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text27" x="587" y="30" width="65" height="20" id="31" state="245" group="0" font="tahoma,14,0" send="0" content="p" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text27/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text28" x="587" y="10" width="65" height="20" id="32" state="245" group="0" font="tahoma,14,0" send="0" content="P" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text28/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text29" x="652" y="30" width="65" height="20" id="33" state="245" group="0" font="tahoma,14,0" send="0" content="[" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text29/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text30" x="652" y="10" width="65" height="20" id="34" state="245" group="0" font="tahoma,14,0" send="0" content="{" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text30/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text31" x="717" y="30" width="65" height="20" id="35" state="245" group="0" font="tahoma,14,0" send="0" content="]" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text31/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text32" x="717" y="10" width="65" height="20" id="36" state="245" group="0" font="tahoma,14,0" send="0" content="}" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text32/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text33" x="33" y="91" width="65" height="20" id="37" state="245" group="0" font="tahoma,14,0" send="0" content="a" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text33/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text34" x="33" y="71" width="65" height="20" id="38" state="245" group="0" font="tahoma,14,0" send="0" content="A" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text34/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text35" x="98" y="91" width="65" height="20" id="39" state="245" group="0" font="tahoma,14,0" send="0" content="s" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text35/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text36" x="98" y="71" width="65" height="20" id="40" state="245" group="0" font="tahoma,14,0" send="0" content="S" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text36/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text37" x="163" y="91" width="65" height="20" id="41" state="245" group="0" font="tahoma,14,0" send="0" content="d" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text37/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text38" x="163" y="71" width="65" height="20" id="42" state="245" group="0" font="tahoma,14,0" send="0" content="D" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text38/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text39" x="228" y="91" width="65" height="20" id="43" state="245" group="0" font="tahoma,14,0" send="0" content="f" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text39/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text40" x="228" y="71" width="65" height="20" id="44" state="245" group="0" font="tahoma,14,0" send="0" content="F" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text40/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text41" x="293" y="91" width="65" height="20" id="45" state="245" group="0" font="tahoma,14,0" send="0" content="g" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text41/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text42" x="293" y="71" width="65" height="20" id="46" state="245" group="0" font="tahoma,14,0" send="0" content="G" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text42/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text43" x="358" y="91" width="65" height="20" id="47" state="245" group="0" font="tahoma,14,0" send="0" content="h" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text43/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text44" x="358" y="71" width="65" height="20" id="48" state="245" group="0" font="tahoma,14,0" send="0" content="H" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text44/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text45" x="423" y="91" width="65" height="20" id="49" state="245" group="0" font="tahoma,14,0" send="0" content="j" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text45/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text46" x="423" y="71" width="65" height="20" id="50" state="245" group="0" font="tahoma,14,0" send="0" content="J" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text46/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text47" x="488" y="91" width="65" height="20" id="51" state="245" group="0" font="tahoma,14,0" send="0" content="k" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text47/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text48" x="488" y="71" width="65" height="20" id="52" state="245" group="0" font="tahoma,14,0" send="0" content="K" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text48/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text49" x="555" y="91" width="65" height="20" id="53" state="245" group="0" font="tahoma,14,0" send="0" content="l" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text49/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text50" x="555" y="71" width="65" height="20" id="54" state="245" group="0" font="tahoma,14,0" send="0" content="L" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text50/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text51" x="620" y="91" width="65" height="20" id="55" state="245" group="0" font="tahoma,14,0" send="0" content=";" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text51/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text52" x="620" y="71" width="65" height="20" id="56" state="245" group="0" font="tahoma,14,0" send="0" content=":" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text52/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text53" x="685" y="95" width="65" height="20" id="57" state="245" group="0" font="tahoma,14,0" send="0" content="'" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text53/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text54" x="685" y="75" width="65" height="20" id="58" state="245" group="0" font="tahoma,14,0" send="0" content="''" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text54/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text55" x="54" y="151" width="65" height="20" id="59" state="245" group="0" font="tahoma,14,0" send="0" content="z" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text55/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text56" x="54" y="131" width="65" height="20" id="60" state="245" group="0" font="tahoma,14,0" send="0" content="Z" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text56/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text57" x="119" y="151" width="65" height="20" id="61" state="245" group="0" font="tahoma,14,0" send="0" content="x" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text57/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text58" x="119" y="131" width="65" height="20" id="62" state="245" group="0" font="tahoma,14,0" send="0" content="X" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text58/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text59" x="184" y="151" width="65" height="20" id="63" state="245" group="0" font="tahoma,14,0" send="0" content="c" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text59/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text60" x="184" y="131" width="65" height="20" id="64" state="245" group="0" font="tahoma,14,0" send="0" content="C" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text60/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text61" x="249" y="151" width="65" height="20" id="65" state="245" group="0" font="tahoma,14,0" send="0" content="v" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text61/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text62" x="249" y="131" width="65" height="20" id="66" state="245" group="0" font="tahoma,14,0" send="0" content="V" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text62/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text63" x="314" y="151" width="65" height="20" id="67" state="245" group="0" font="tahoma,14,0" send="0" content="b" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text63/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text64" x="314" y="131" width="65" height="20" id="68" state="245" group="0" font="tahoma,14,0" send="0" content="B" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text64/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text65" x="379" y="151" width="65" height="20" id="69" state="245" group="0" font="tahoma,14,0" send="0" content="n" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text65/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text66" x="379" y="131" width="65" height="20" id="70" state="245" group="0" font="tahoma,14,0" send="0" content="N" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text66/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text67" x="444" y="151" width="65" height="20" id="71" state="245" group="0" font="tahoma,14,0" send="0" content="m" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text67/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text68" x="444" y="131" width="65" height="20" id="72" state="245" group="0" font="tahoma,14,0" send="0" content="M" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text68/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text69" x="509" y="151" width="65" height="20" id="73" state="245" group="0" font="tahoma,14,0" send="0" content="," color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text69/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text70" x="509" y="131" width="65" height="20" id="74" state="245" group="0" font="tahoma,14,0" send="0" content="<" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text70/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text71" x="576" y="151" width="65" height="20" id="75" state="245" group="0" font="tahoma,14,0" send="0" content="." color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text71/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text72" x="576" y="131" width="65" height="20" id="76" state="245" group="0" font="tahoma,14,0" send="0" content=">" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text72/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text73" x="639" y="151" width="65" height="20" id="77" state="245" group="0" font="tahoma,14,0" send="0" content="/" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text73/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text74" x="639" y="131" width="65" height="20" id="78" state="245" group="0" font="tahoma,14,0" send="0" content="?" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text74/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Pads" text="Tab" x="0" y="120" width="52" height="60" id="80" state="1" group="0" font="tahoma,10,0" send="1" label="0" column="1" row="1" color="160,254" capture="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tab/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tab/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tab/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tab/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tab/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tab/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tab/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text76" x="1" y="151" width="50" height="20" id="82" state="245" group="0" font="tahoma,10,0" send="0" content="Tab" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text76/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Pads" text="Return" x="704" y="120" width="78" height="60" id="84" state="1" group="0" font="tahoma,10,0" send="1" label="0" column="1" row="1" color="160,254" capture="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Return/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Return/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Return/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Return/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Return/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Return/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Return/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text75" x="704" y="151" width="78" height="20" id="85" state="245" group="0" font="tahoma,10,0" send="0" content="Return" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text75/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Pads" text="Slash" x="749" y="60" width="35" height="60" id="86" state="1" group="0" font="tahoma,10,0" send="1" label="0" column="1" row="1" color="138,254" capture="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Slash/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Slash/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Slash/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Slash/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Slash/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Slash/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Slash/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text77" x="741" y="95" width="50" height="20" id="87" state="245" group="0" font="tahoma,14,0" send="0" content="\" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text77/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text78" x="741" y="71" width="50" height="20" id="88" state="245" group="0" font="tahoma,14,0" send="0" content="|" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text78/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Pads" text="Tilde" x="0" y="60" width="35" height="60" id="89" state="1" group="0" font="tahoma,10,0" send="1" label="0" column="1" row="1" color="138,254" capture="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tilde/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tilde/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tilde/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tilde/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tilde/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tilde/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Tilde/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text79" x="-8" y="91" width="50" height="20" id="90" state="245" group="0" font="tahoma,14,0" send="0" content="`" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text79/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text80" x="-8" y="67" width="50" height="20" id="91" state="245" group="0" font="tahoma,8,0" send="0" content="tilde" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Qwerty/Text80/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="Modifier" x="0" y="232" width="800" height="86" id="1" state="5" group="0" font="tahoma,10,0" send="1" label="1" color="188">
+<WINDOW class="Pads" text="Shift" x="0" y="0" width="171" height="70" id="4" state="1" group="0" font="tahoma,10,0" send="1" label="1" column="1" row="1" color="160,254" capture="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Modifier/Shift/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Shift/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Shift/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Shift/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Shift/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Shift/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Shift/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Pads" text="Control" x="171" y="0" width="60" height="70" id="18" state="1" group="0" font="tahoma,10,0" send="1" label="1" column="1" row="1" color="160,254" capture="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Modifier/Control/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Control/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Control/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Control/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Control/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Control/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Control/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Pads" text="Option" x="231" y="0" width="60" height="70" id="19" state="1" group="0" font="tahoma,10,0" send="1" label="1" column="1" row="1" color="160,254" capture="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Modifier/Option/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Option/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Option/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Option/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Option/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Option/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Option/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Pads" text="Command" x="291" y="0" width="97" height="70" id="20" state="1" group="0" font="tahoma,10,0" send="1" label="1" column="1" row="1" color="160,254" capture="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Modifier/Command/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Command/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Command/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Command/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Command/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Command/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Command/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Pads" text="Space" x="388" y="0" width="299" height="70" id="21" state="1" group="0" font="tahoma,10,0" send="1" label="1" column="1" row="1" color="160,254" capture="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Modifier/Space/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Space/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Space/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Space/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Space/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Space/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Space/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Pads" text="Delete" x="687" y="0" width="97" height="70" id="22" state="1" group="0" font="tahoma,10,0" send="1" label="1" column="1" row="1" color="160,254" capture="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Modifier/Delete/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Delete/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Delete/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Delete/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Delete/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Delete/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Modifier/Delete/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<VARIABLE name="ShiftAction=Shift.x[0]+Shift.x[4]" send="1" osc_target="-1" osc_trigger="1" osc_message="/Modifier/ShiftAction" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="OnNoShift=(0-(ShiftAction*2))+Arrows.LightLevel2" send="1" osc_target="-1" osc_trigger="1" osc_message="/Modifier/OnNoShift" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="OnShift=-2+(ShiftAction*2)+Arrows.LightLevel2" send="1" osc_target="-1" osc_trigger="1" osc_message="/Modifier/OnShift" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Container" text="Arrows" x="474" y="320" width="326" height="280" id="2" state="5" group="0" font="tahoma,10,0" send="1" label="1" color="206">
+<WINDOW class="CustomButton" text="Up" x="96" y="15" width="48" height="96" state="241" group="0" font="tahoma,20,0" send="1" outline="1" label_on="" label_off="" color="142,216" bitmap="7,7" capture="1" behavior="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Arrows/Up/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Up/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="CustomButton" text="Down" x="96" y="159" width="48" height="96" id="1" state="241" group="0" font="tahoma,20,0" send="1" outline="1" label_on="" label_off="" color="148,216" bitmap="8,8" capture="1" behavior="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Arrows/Down/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Down/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="CustomButton" text="Left" x="0" y="111" width="96" height="48" id="2" state="241" group="0" font="tahoma,20,0" send="1" outline="1" label_on="" label_off="" color="152,216" bitmap="5,5" capture="1" behavior="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Arrows/Left/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Left/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="CustomButton" text="Right" x="144" y="111" width="96" height="48" id="3" state="241" group="0" font="tahoma,20,0" send="1" outline="1" label_on="" label_off="" color="148,216" bitmap="6,6" capture="1" behavior="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Arrows/Right/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Right/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="CustomButton" text="PageUp" x="262" y="15" width="48" height="96" id="4" state="241" group="0" font="tahoma,20,0" send="1" outline="1" label_on="" label_off="" color="74,216" bitmap="7,7" capture="1" behavior="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Arrows/PageUp/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/PageUp/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="CustomButton" text="PageDown" x="262" y="159" width="48" height="96" id="5" state="241" group="0" font="tahoma,20,0" send="1" outline="1" label_on="" label_off="" color="78,216" bitmap="8,8" capture="1" behavior="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Arrows/PageDown/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/PageDown/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="CustomButton" text="Home" x="262" y="111" width="48" height="48" id="6" state="241" group="0" font="tahoma,20,0" send="1" outline="1" label_on="" label_off="" color="80,216" bitmap="3,3" capture="1" behavior="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Arrows/Home/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Home/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="CustomButton" text="Escape" x="164" y="176" width="64" height="64" id="7" state="241" group="0" font="tahoma,12,0" send="1" outline="1" label_on="ESC" label_off="Esc" color="168,216" bitmap="0,0" capture="1" behavior="1">
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Arrows/Escape/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Escape/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Knob" text="Key" x="176" y="6" width="64" height="90" id="8" state="1" group="0" font="tahoma,10,0" send="0" grid="0" grid_steps="10" label="1" value="1" unit="%" precision="0" mode="3" color="170,168" cursor="0" physic="1">
+<PARAM name="x=" value="0.192858" send="17" osc_target="0" osc_trigger="1" osc_message="/Arrows/Key/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="value=x*100" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Key/value" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="attraction=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Key/attraction" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="friction=0.9" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Key/friction" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="speed=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Key/speed" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Knob" text="Name" x="0" y="6" width="64" height="90" id="9" state="1" group="0" font="tahoma,10,0" send="0" grid="0" grid_steps="10" label="1" value="1" unit="%" precision="0" mode="3" color="170,170" cursor="0" physic="1">
+<PARAM name="x=" value="0.210117" send="17" osc_target="0" osc_trigger="1" osc_message="/Arrows/Name/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="value=x*100" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Name/value" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="attraction=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Name/attraction" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="friction=0.9" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Name/friction" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="speed=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Arrows/Name/speed" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<VARIABLE name="LightLevel=-0.5+(Key.x*1)" send="1" osc_target="0" osc_trigger="1" osc_message="/Arrows/LightLevel" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="LightLevel2=-0.5+(Name.x*1)" send="1" osc_target="0" osc_trigger="1" osc_message="/Arrows/LightLevel2" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Container" text="Function" x="0" y="0" width="800" height="48" id="3" state="1" group="0" font="tahoma,10,0" send="1" label="1" color="150">
+<WINDOW class="Pads" text="F" x="0" y="0" width="784" height="32" id="2" state="1" group="0" font="tahoma,10,0" send="1" label="0" column="16" row="1" color="142,254" capture="1">
+<PARAM name="x=" value="0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Function/F/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Function/F/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Function/F/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Function/F/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Function/F/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Function/F/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Function/F/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF1" x="0" y="10" width="50" height="20" id="85" state="245" group="0" font="tahoma,10,0" send="0" content="F1" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF1/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF2" x="48" y="10" width="50" height="20" id="86" state="245" group="0" font="tahoma,10,0" send="0" content="F2" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF2/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF3" x="98" y="10" width="50" height="20" id="87" state="245" group="0" font="tahoma,10,0" send="0" content="F3" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF3/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF4" x="148" y="10" width="50" height="20" id="88" state="245" group="0" font="tahoma,10,0" send="0" content="F4" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF4/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF5" x="198" y="10" width="50" height="20" id="89" state="245" group="0" font="tahoma,10,0" send="0" content="F5" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF5/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF6" x="244" y="10" width="50" height="20" id="90" state="245" group="0" font="tahoma,10,0" send="0" content="F6" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF6/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF7" x="294" y="10" width="50" height="20" id="91" state="245" group="0" font="tahoma,10,0" send="0" content="F7" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF7/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF8" x="342" y="10" width="50" height="20" id="92" state="245" group="0" font="tahoma,10,0" send="0" content="F8" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF8/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF9" x="392" y="10" width="50" height="20" id="93" state="245" group="0" font="tahoma,10,0" send="0" content="F9" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF9/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF10" x="440" y="10" width="50" height="20" id="94" state="245" group="0" font="tahoma,10,0" send="0" content="F10" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF10/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF11" x="490" y="10" width="50" height="20" id="95" state="245" group="0" font="tahoma,10,0" send="0" content="F11" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF11/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF12" x="540" y="10" width="50" height="20" id="96" state="245" group="0" font="tahoma,10,0" send="0" content="F12" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF12/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF13" x="590" y="10" width="50" height="20" id="97" state="245" group="0" font="tahoma,10,0" send="0" content="F13" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF13/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF14" x="636" y="10" width="50" height="20" id="98" state="245" group="0" font="tahoma,10,0" send="0" content="F14" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF14/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF15" x="686" y="10" width="50" height="20" id="99" state="245" group="0" font="tahoma,10,0" send="0" content="F15" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF15/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="LabelF16" x="734" y="10" width="50" height="20" id="100" state="245" group="0" font="tahoma,10,0" send="0" content="F16" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="-1" osc_trigger="1" osc_message="/Function/LabelF16/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="Numeric" x="255" y="320" width="219" height="280" id="4" state="5" group="0" font="tahoma,10,0" send="1" label="1" color="206">
+<WINDOW class="Pads" text="Array" x="0" y="0" width="204" height="264" id="2" state="1" group="0" font="tahoma,10,0" send="1" label="0" column="3" row="4" color="138,254" capture="1">
+<PARAM name="x=" value="0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Numeric/Array/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Array/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Array/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Array/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Array/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Array/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Array/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text9" x="0" y="232" width="65" height="20" id="13" state="245" group="0" font="tahoma,14,0" send="0" content="0" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text9/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text10" x="0" y="212" width="65" height="20" id="14" state="245" group="0" font="tahoma,14,0" send="0" content=")" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text10/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text11" x="70" y="232" width="65" height="20" id="15" state="245" group="0" font="tahoma,14,0" send="0" content="." color="146">
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text11/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text13" x="2" y="167" width="65" height="20" id="17" state="245" group="0" font="tahoma,14,0" send="0" content="1" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text13/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text14" x="2" y="147" width="65" height="20" id="18" state="245" group="0" font="tahoma,14,0" send="0" content="!" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text14/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text15" x="70" y="167" width="65" height="20" id="19" state="245" group="0" font="tahoma,14,0" send="0" content="2" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text15/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text16" x="70" y="147" width="65" height="20" id="20" state="245" group="0" font="tahoma,14,0" send="0" content="@" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text16/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text17" x="139" y="167" width="65" height="20" id="21" state="245" group="0" font="tahoma,14,0" send="0" content="3" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text17/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text18" x="139" y="147" width="65" height="20" id="22" state="245" group="0" font="tahoma,14,0" send="0" content="#" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text18/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text19" x="2" y="101" width="65" height="20" id="23" state="245" group="0" font="tahoma,14,0" send="0" content="4" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text19/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text20" x="2" y="81" width="65" height="20" id="24" state="245" group="0" font="tahoma,14,0" send="0" content="$" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text20/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text21" x="70" y="101" width="65" height="20" id="25" state="245" group="0" font="tahoma,14,0" send="0" content="5" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text21/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text22" x="70" y="81" width="65" height="20" id="26" state="245" group="0" font="tahoma,14,0" send="0" content="%" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text22/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text23" x="139" y="101" width="65" height="20" id="27" state="245" group="0" font="tahoma,14,0" send="0" content="6" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text23/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text24" x="139" y="81" width="65" height="20" id="28" state="245" group="0" font="tahoma,14,0" send="0" content="^" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text24/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text25" x="0" y="35" width="65" height="20" id="29" state="245" group="0" font="tahoma,14,0" send="0" content="7" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text25/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text26" x="2" y="15" width="65" height="20" id="30" state="245" group="0" font="tahoma,14,0" send="0" content="&" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text26/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text27" x="68" y="35" width="65" height="20" id="31" state="245" group="0" font="tahoma,14,0" send="0" content="8" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text27/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text28" x="71" y="15" width="65" height="20" id="32" state="245" group="0" font="tahoma,14,0" send="0" content="*" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text28/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text29" x="135" y="35" width="65" height="20" id="33" state="245" group="0" font="tahoma,14,0" send="0" content="9" color="146">
+<VARIABLE name="light=Modifier.OnNoShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text29/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text30" x="135" y="15" width="65" height="20" id="34" state="245" group="0" font="tahoma,14,0" send="0" content="(" color="146">
+<VARIABLE name="light=Modifier.OnShift" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text30/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text75" x="139" y="223" width="61" height="20" id="85" state="245" group="0" font="tahoma,10,0" send="0" content="Enter" color="146">
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Numeric/Text75/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+</WINDOW>
+<WINDOW class="Container" text="Math" x="59" y="320" width="196" height="136" id="5" state="5" group="0" font="tahoma,10,0" send="1" label="1" color="206">
+<WINDOW class="Pads" text="Array" x="0" y="0" width="180" height="120" id="2" state="1" group="0" font="tahoma,10,0" send="1" label="0" column="3" row="2" color="138,254" capture="1">
+<PARAM name="x=" value="0.000000,0.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/Math/Array/x" midi_target="0" midi_trigger="1" midi_message="0xBE,0xBE,6,6" midi_scale="0,129" osc_scale="0.000000,1.000000"/>
+<VARIABLE name="attack=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Math/Array/attack" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="decay=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Math/Array/decay" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="sustain=1" send="0" osc_target="0" osc_trigger="1" osc_message="/Math/Array/sustain" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="release=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Math/Array/release" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Math/Array/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+<VARIABLE name="light=Arrows.LightLevel" send="0" osc_target="0" osc_trigger="1" osc_message="/Math/Array/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text21" x="-4" y="21" width="65" height="20" id="25" state="245" group="0" font="tahoma,14,0" send="0" content="=" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="0" osc_trigger="1" osc_message="/Math/Text21/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text22" x="57" y="21" width="65" height="20" id="26" state="245" group="0" font="tahoma,14,0" send="0" content="/" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="0" osc_trigger="1" osc_message="/Math/Text22/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text23" x="57" y="82" width="65" height="20" id="27" state="245" group="0" font="tahoma,14,0" send="0" content="*" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="0" osc_trigger="1" osc_message="/Math/Text23/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text24" x="117" y="21" width="65" height="20" id="28" state="245" group="0" font="tahoma,14,0" send="0" content="-" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="0" osc_trigger="1" osc_message="/Math/Text24/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+<WINDOW class="Text" text="Text25" x="117" y="80" width="65" height="20" id="29" state="245" group="0" font="tahoma,14,0" send="0" content="+" color="146">
+<VARIABLE name="light=Arrows.LightLevel2" send="0" osc_target="0" osc_trigger="1" osc_message="/Math/Text25/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383"/>
+</WINDOW>
+</WINDOW>
+</WINDOW>
+</JZML>

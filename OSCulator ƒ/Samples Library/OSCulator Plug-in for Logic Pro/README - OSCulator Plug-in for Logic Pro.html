@@ -1,0 +1,305 @@
+<html><meta charset="UTF-8"><style>html { 
+    font-size: 100%; 
+    overflow-y: scroll; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+}
+
+body{
+    font-family: helvetica, arial, freesans, clean, sans-serif;
+    color: #333;
+    background-color: #fff;
+    border-color: #999999;
+    border-width: 2px;
+    line-height: 1.5;
+    margin: 2em 3em;
+    text-align:left;
+    padding: 0 100px 0 100px;
+}
+
+pre{
+    background-color: #eee;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: auto;
+}
+code{
+    background-color: #eee;
+    padding: 1px 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px; 
+}
+li p{
+    margin: 0.3em;
+}
+ul > li{
+    list-style-type: disc;
+}
+a:link, a:visited{
+    color: #33e;
+    text-decoration: none;
+}
+a:hover{
+    color: #00f;
+    text-shadow:1px 1px 2px #ccf;
+    text-decoration:underline;
+}
+h1{
+    color: #999;
+    font-weight: 400;
+    font-size: 36px;
+}
+h2{
+    border-bottom: 1px dotted #aaa;
+    margin-bottom: 1em;
+    color: #333;
+    font-size: 30px;
+}
+h3{
+    color: #666;
+    font-size: 24px;
+}
+h4 {
+    font-size: 21px;
+}
+h5 {
+    font-size: 18px;
+}
+.shadow{
+    -webkit-box-shadow:0 5px 15px #000;
+    -moz-box-shadow:0 5px 15px #000;
+    box-shadow:0 5px 15px #000;     
+}
+</style><body><h1>README - OSCulator Plug-in for Logic Pro</h1>
+<h2>Description</h2>
+<p>The OSCulator Plug-in for Logic Pro is a "Control Surface Plug-in" allowing control of Logic Pro using the Open Sound Control protocol (OSC).</p>
+<p>The aim is to create a clean and documented API so OSC applications are easier to interface with Logic Pro.</p>
+<p>Please see disclaimer, change log and copyright at the end of the document.</p>
+<h2>Compatibility</h2>
+<p>The plug-in is compatible with:</p>
+<ul>
+<li>Mac OS X 10.6.8 or later.</li>
+<li>Logic Pro 9.1.2 or later.</li>
+<li>Logic Pro Express 9.1.2 or later.</li>
+<li>Requires OSCulator 2.12 or later.</li>
+</ul>
+<h2>Installation</h2>
+<p>Copy the file "OSCulator.bundle" into one of the following directories:</p>
+<ul>
+<li>~/Library/Application Support/MIDI Device Plug-ins</li>
+<li>/Library/Application Support/MIDI Device Plug-ins</li>
+</ul>
+<h2>Logic Configuration</h2>
+<ul>
+<li>Launch Logic.</li>
+<li>Launch OSCulator.</li>
+<li>Logic should then display a prompt:</li>
+</ul>
+<p>« Logic Pro has detected a new OSC device named "computer:8000 (OSCulator)", which is supported by the control surface plug-in "OSCulator. »</p>
+<p>Click Add, OSCulator is now ready to communicate with Logic.</p>
+<h2>OSCulator configuration</h2>
+<p>If you want to send OSC messages to Logic Pro, it must be configured as an OSC target.  The OSC target is automatically added in OSCulator 2.12 and later, however you will need to add it manually in previous versions. </p>
+<p>In OSCulator, open the Parameters Window, and navigate to the OSC Routing.  Logic publishes a OSC service whose name is merely the name of your computer.  If your computer's name is "tortilla" then that is what you should see in the OSC target list.</p>
+<p>If it is not in the list, click on the gear button and pick the service from there.</p>
+<p>Finally, make sure that the target is not the default target, otherwise the service will be replaced by another one next time OSCulator detects a OSC device on the network.</p>
+<h3>Attention TouchOSC users</h3>
+<p>If you have already setup TouchOSC as a control surface in Logic, but would like to use OSCulator to act as a bridge, then you should uninstall the TouchOSC control surface from Logic Pro.</p>
+<h2>How to stop using the OSCulator Plug-in for Logic Pro</h2>
+<ul>
+<li>In Logic Pro, open the "Logic Pro" menu, then "Preferences", "Control Surfaces" and "Setup…".</li>
+<li>Select the OSCulator control surface shown as a big OSCulator icon.</li>
+<li>Hit backspace to remove it from the configuration.</li>
+</ul>
+<p>As long as the plug-in is not uninstalled (see next section), this is only temporary and can be reconfigured again later.</p>
+<h2>Complete uninstallation</h2>
+<ul>
+<li>Quit Logic Pro.</li>
+<li>Remove the OSCulator.bundle file from the following locations:<ul>
+<li>~/Library/Application Support/MIDI Device Plug-ins</li>
+<li>/Library/Application Support/MIDI Device Plug-ins</li>
+</ul>
+</li>
+</ul>
+<h2>Example file: "Logic Pro - TouchOSC (using LogicTouch layout)"</h2>
+<p>The purpose of this example is to show how to use OSCulator as a bridge between TouchOSC and Logic Pro.  We use the LogicTouch layout (bundled with the TouchOSC app), that was designed to work directly with Logic.  If we don't use TouchOSC as a control surface, but instead use OSCulator, then we have access to the OSC messages that are exchanged between TouchOSC and Logic and can use OSCulator instead.</p>
+<p>The example has been made with the iPhone version of this template.  Adapting the example to the iPad version is left as an exercise for the reader.</p>
+<h2>OSC dictionary</h2>
+<p>The file "Logic Pro OSCulator Dictionary.oroutes" is a dictionary of OSC messages and provided to make it easier to assign mappings in OSCulator, or to explore the possible OSC calls.</p>
+<p>To use the dictionary, in OSCulator, open the Parameters Window, and go to the OSC Routing tab.  Click on the gear button and then "Import…".  Choose the file named "Logic Pro OSCulator Dictionary.oroutes".</p>
+<h2>Troubleshooting</h2>
+<ul>
+<li>
+<p>Launch Logic before OSCulator.</p>
+</li>
+<li>
+<p>It seems that in this early version of the plug-in communication can be lost or become out of sync.  To remedy this problem quickly, press the Pause button in OSCulator's toolbar and press Start again.  Logic will re-send every control values, thus re-syncing the two applications.</p>
+</li>
+</ul>
+<h2>Debugging</h2>
+<p>OSCulator has a debugging mode where all OSC input and output is logged to the console.  In order to enable the debugging mode, type the following line in a Terminal window:</p>
+<pre><code>defaults write net.osculator.OSCulator ShowDebuggingTools YES
+</code></pre>
+<p>and restart OSCulator.  The menu item "Log OSC input" will become available in the Routings menu.</p>
+<p>To remove debugging support, type in a Terminal window:</p>
+<pre><code>defaults delete net.osculator.OSCulator ShowDebuggingTools
+</code></pre>
+<h2>OSC API Description</h2>
+<p>Unless specified, all communications are bi-directional.</p>
+<p>(a) unidirectional message: sent from OSCulator to Logic Pro.</p>
+<p>(b) unidirectional message: received by OSCulator from Logic Pro.</p>
+<h3>Transport</h3>
+<ul>
+<li>/logic/transport/play</li>
+<li>/logic/transport/stop</li>
+<li>/logic/transport/rewind</li>
+<li>/logic/transport/forward</li>
+<li>/logic/transport/record</li>
+<li>/logic/transport/cycle</li>
+<li>/logic/transport/click</li>
+<li>/logic/transport/replace</li>
+<li>/logic/transport/bymarker</li>
+<li>/logic/transport/time/smpte (b)</li>
+<li>/logic/transport/time/beats (b)</li>
+</ul>
+<h3>Mixer</h3>
+<ul>
+<li>/logic/mixer/solo-reset (a)</li>
+<li>/logic/mixer/solo-any (b)</li>
+</ul>
+<p>Tracks are grouped by banks of 8 tracks.  In the following messages:</p>
+<ul>
+<li>/logic/mixer/bank+ (a)</li>
+<li>/logic/mixer/bank- (a)</li>
+</ul>
+<p>Tracks:</p>
+<ul>
+<li><code>track_index</code> is a number between 1 and 8 or the string 'master'.</li>
+<li><code>send_index</code> is a number between 1 and 3.</li>
+<li>/logic/mixer/track/<code>track_index</code>/id (b)</li>
+<li>/logic/mixer/track/<code>track_index</code>/name (b)</li>
+<li>/logic/mixer/track/<code>track_index</code>/level</li>
+<li>/logic/mixer/track/<code>track_index</code>/level/string (b)</li>
+<li>/logic/mixer/track/<code>track_index</code>/pan</li>
+<li>/logic/mixer/track/<code>track_index</code>/pan/string (b)</li>
+<li>/logic/mixer/track/<code>track_index</code>/mute</li>
+<li>/logic/mixer/track/<code>track_index</code>/solo</li>
+<li>/logic/mixer/track/<code>track_index</code>/focus</li>
+<li>/logic/mixer/track/<code>track_index</code>/send/<code>send_index</code>/name (b)</li>
+<li>/logic/mixer/track/<code>track_index</code>/send/<code>send_index</code>/level</li>
+<li>/logic/mixer/track/<code>track_index</code>/send/<code>send_index</code>/level/string (b)</li>
+</ul>
+<p>AUX:</p>
+<ul>
+<li><code>aux_index</code> is a number between 1 and 4.</li>
+<li>/logic/mixer/aux/<code>aux_index</code>/id (b)</li>
+<li>/logic/mixer/aux/<code>aux_index</code>/name (b)</li>
+<li>/logic/mixer/aux/<code>aux_index</code>/level</li>
+<li>/logic/mixer/aux/<code>aux_index</code>/level/string (b)</li>
+<li>/logic/mixer/aux/<code>aux_index</code>/pan</li>
+<li>/logic/mixer/aux/<code>aux_index</code>/pan/string (b)</li>
+<li>/logic/mixer/aux/<code>aux_index</code>/mute</li>
+<li>/logic/mixer/aux/<code>aux_index</code>/solo</li>
+</ul>
+<h2>Track</h2>
+<ul>
+<li>/logic/track/track+ (a)</li>
+<li>
+<p>/logic/track/track- (a)</p>
+</li>
+<li>
+<p>/logic/track/id (b)</p>
+</li>
+<li>/logic/track/name (b)</li>
+<li>/logic/track/level</li>
+<li>/logic/track/level/string (b)</li>
+<li>/logic/track/pan</li>
+<li>/logic/track/pan/string (b)</li>
+<li>/logic/track/mute</li>
+<li>/logic/track/solo</li>
+<li>/logic/track/input-monitoring</li>
+<li>/logic/track/rec-enable</li>
+</ul>
+<p>Sends:</p>
+<ul>
+<li><code>send_index</code> is a number between 1 and 5.</li>
+<li>/logic/track/send/<code>send_index</code>/name (b)</li>
+<li>/logic/track/send/<code>send_index</code>/level</li>
+<li>/logic/track/send/<code>send_index</code>/level/string (b)</li>
+</ul>
+<p>Inserts:</p>
+<ul>
+<li><code>insert_index</code> is a number between 1 and 12.</li>
+<li>/logic/track/insert+ (a)</li>
+<li>/logic/track/insert- (a)</li>
+<li>/logic/track/insert/<code>insert_index</code>/name (b)</li>
+<li>/logic/track/insert/<code>insert_index</code>/bypass</li>
+<li>
+<p>/logic/track/insert/<code>insert_index</code>/focus</p>
+</li>
+<li>
+<p><code>param_index</code> is a number between 1 and 16.</p>
+</li>
+<li>/logic/insert/page+ (a)</li>
+<li>/logic/insert/page- (a)</li>
+<li>/logic/insert/page/id (b)</li>
+<li>/logic/insert/param/<code>param_index</code>/name (b)</li>
+<li>/logic/insert/param/<code>param_index</code>/name/value</li>
+<li>/logic/insert/param/<code>param_index</code>/name/value/string (b)</li>
+</ul>
+<p>EQ:</p>
+<ul>
+<li><code>eq_index</code> is a number between 1 and 8.</li>
+<li>/logic/track/eq/<code>eq_index</code>/bypass</li>
+<li>/logic/track/eq/<code>eq_index</code>/gain</li>
+<li>/logic/track/eq/<code>eq_index</code>/gain/string (b)</li>
+<li>/logic/track/eq/<code>eq_index</code>/gain/+ (a)</li>
+<li>/logic/track/eq/<code>eq_index</code>/gain/- (a)</li>
+<li>/logic/track/eq/<code>eq_index</code>/freq</li>
+<li>/logic/track/eq/<code>eq_index</code>/freq/string (b)</li>
+<li>/logic/track/eq/<code>eq_index</code>/freq/+ (a)</li>
+<li>/logic/track/eq/<code>eq_index</code>/freq/- (a)</li>
+<li>/logic/track/eq/<code>eq_index</code>/q</li>
+<li>/logic/track/eq/<code>eq_index</code>/q/string (b)</li>
+<li>/logic/track/eq/<code>eq_index</code>/q/+ (a)</li>
+<li>/logic/track/eq/<code>eq_index</code>/q/- (a)</li>
+</ul>
+<p>Automation:</p>
+<ul>
+<li>/logic/track/automation/off</li>
+<li>/logic/track/automation/read</li>
+<li>/logic/track/automation/latched</li>
+<li>/logic/track/automation/touch</li>
+<li>/logic/track/automation/write</li>
+</ul>
+<p>Instrument:</p>
+<ul>
+<li><code>param_index</code> is a number between 1 and 24.</li>
+<li>/logic/track/instrument/page+ (a)</li>
+<li>/logic/track/instrument/page- (a)</li>
+<li>/logic/track/instrument/param/<code>param_index</code>/name (b)</li>
+<li>/logic/track/instrument/param/<code>param_index</code>/value</li>
+<li>/logic/track/instrument/param/<code>param_index</code>/value/string (b)</li>
+</ul>
+<h2>Support</h2>
+<p>For problems, bugs or requests, please post a report on the OSCulator Forum:</p>
+<pre><code>http://www.osculator.net/forum
+</code></pre>
+<h2>Change log</h2>
+<ul>
+<li>
+<p>06/15/2012:
+  Updated the example file to disable Logic feedback messages when a fader or rotary is touched. </p>
+</li>
+<li>
+<p>05/29/2012:
+  Initial version</p>
+</li>
+</ul>
+<h2>Disclaimer and copyright</h2>
+<p>This is a work in progress, and as such the following disclaimer applies:</p>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+<p>Copyright &copy; 2012, Wildora, all right reserved.</p></body></html>

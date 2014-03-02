@@ -1,0 +1,18 @@
+reacTIVision 1.4
+----------------
+
+* increased standard set of 108x2 fiducials
+* additional small set of 12*2 fiducials
+* improved fiducials rendering (smaller footprint & better proportions)
+* finger blob tracking, with on screen setup (F key)
+* improved and more robust fiducial tracking (with secondary blob tracking)
+* improved calibration precision
+* improved DC1394 camera support and configuration on mac and linux
+* improved V4L2 camera support and configuration on linux
+* on-screen and XML configuration instead of command line options
+* added MIDI channel selection for note ON events
+* eliminated start dialog on win32 and mac (reenable via camera.xml)
+* allow image size settings on win32 and mac
+* enable camera configuration during runtime on mac
+* numerous minor bug fixes and improvements
+
